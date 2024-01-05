@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logos/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Netflix-clone</title>
+</head>
+
+<body class="bg-zinc-900 text-white font-roboto m-0 p-0">
+    <div style="background-image: url(assets/images/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_small.jpg);" class=" bg-cover bg-no-repeat bg-center">
+        <!-- created navbar -->
+        <nav class="w-full flex justify-evenly gap-[35rem] align-middle">
+            <div class="w-48">
+                <img src="assets/logos/logo-name.png" alt="logo">
+            </div>
+            <div class="flex gap-5 align-middle justify-center text-center ">
+                <select name="language" id="#" style="background-color: rgba(0, 0, 0, 0.281);" class="px-4 py-3 my-auto rounded-md">
+                    <option value="en-in">English</option>
+                    <option value="en-hin">हिन्दी</option>
+                </select>
+                <button class="bg-red-700 py-2 px-4 my-auto rounded-md">Sign In</button>
+            </div>
+        </nav>
+        <!-- navbar ends here -->
+        <div class="grid justify-center align-middle">
+            <div class="grid gap-6 justify-center align-middle text-center">
+                <h1 class="text-5xl font-black">Unlimited movies, TV shows and more</h1>
+                <p class="text-2xl">Watch anywhere. Cancel anytime.</p>
+                <p class="text-2xl">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div class="flex">
+                <input type="email" id="email" placeholder="Email address" required class="border-2 bg-black bg-opacity-50 px-6 py-3 rounded-md w-[23rem] h-[3.5rem] mr-3">
+                <label for="email" class="text-3xl font-medium px-7 py-2 bg-[#e50914] hover:bg-[#c2060f] rounded-lg flex"><span>Get Started</span>
+                    <svg width="24" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-mirrorinrtl="true" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="ChevronRight" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path></svg>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
