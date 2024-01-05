@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -37,19 +37,173 @@
         <!-- hero section starts here -->
         <div class="grid justify-center align-middle">
             <div class="grid text-center">
-                <h1 class="text-5xl">Unlimited movies, TV shows and more</h1>
-                <p>Watch anywhere. Cancel anytime.</p>
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <h1 class="text-5xl font-black">Unlimited movies, TV shows and more</h1>
+                <p class="text-2xl">Watch anywhere. Cancel anytime.</p>
+                <p class="text-2xl">Ready to watch? Enter your email to create or restart your membership.</p>
             </div>
             <div class="flex self-center justify-center">
-                <input type="email" placeholder="Email address" required class="w-[20vw] h-14 p-2 mr-2 rounded-md bg-[#0000008d] text-white border-2 border-white">
+                <input type="email" placeholder="Email address" required
+                    class="w-[20vw] h-14 p-2 mr-2 rounded-md bg-[#0000008d] text-white border-2 border-white">
                 <label for="email" class="inline-flex align-middle bg-[#e50914] hover:bg-[#c2060f] p-[10px] rounded-md">
                     <span class="text-3xl">Get Started</span>
-                    <svg width="24" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-mirrorinrtl="true" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="ChevronRight" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z" fill="currentColor"></path></svg>
+                    <svg width="24" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        data-mirrorinrtl="true" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="ChevronRight"
+                        aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </label>
+            </div>
+        </div>
+        <!-- hero section ends -->
+    </div>
+    <!-- head ends -->
+
+    <!-- menu starts -->
+    <div class="mt-2">
+        <div class="bg-black flex gap-5 justify-center align-middle text-left mt-1">
+            <div class="my-auto flex flex-col gap-y-4 text-wrap w-[50vw]">
+                <h1 class="text-5xl font-black">Enjoy on your TV</h1>
+                <p class="text-2xl w-[43rem]">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                    players and more.</p>
+            </div>
+            <div class="">
+                <video src="assets/videos/video-tv-in-0819.m4v" autoplay muted loop
+                    class="absolute top-[46rem] z-[1]">Your browser does not support the video tag.</video>
+                <img src="assets/images/tv.png" alt="tv image" class="relative z-[2] right-20">
+            </div>
+        </div>
+        <div class="bg-black flex gap-5 justify-center align-middle text-left mt-1">
+            <div class="">
+                <img src="assets/images/mobile-thumb.jpg" alt="mobile app" class="relative">
+
+                <!-- download mobile app section -->
+                <div class="flex justify-center align-middle p-2 gap-3 w-fit rounded-xl border-[1px] border-white absolute z-[1] left-[13.2rem] top-[92rem] bg-black">
+                    <img src="assets/images/boxshot.png" alt="boxshot" class="h-20">
+                    <div class="my-auto mx-5">
+                        <p class="text-lg font-semibold">Stranger Things</p>
+                        <p class="text-md font-normal text-blue-700">Downloading...</p>
+                    </div>
+                    <a href="#" class="my-auto">
+                        <img src="assets/logos/download-button.png" alt="download button" class="h-7">
+                    </a>
+                </div>
+                <!-- download mobile app section end-->
+            </div>
+            <div class="my-auto flex flex-col gap-y-4 text-wrap w-[50vw]">
+                <h1 class="text-5xl font-black">Download your shows to watch offline</h1>
+                <p class="text-2xl w-[43rem]">Save your favourites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <!-- watching section  -->
+        <div class="bg-black flex gap-5 justify-center align-middle text-left mt-1">
+            <div class="my-auto flex flex-col gap-y-4 text-wrap w-[50vw]">
+                <h1 class="text-5xl font-black">Watch everywhere</h1>
+                <p class="text-2xl w-[43rem]">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div>
+                <video src="assets/videos/video-devices-in.m4v" autoplay muted loop class="absolute top-[103rem] right-[15rem] z-[1] w-[25rem]">Your browser does not support the video tag.</video>
+                <img src="assets/images/device-pile-in.png" alt="tv image" class="relative z-[2] right-20">
+            </div>
+        </div>
+        <!-- children section  -->
+        <div class="bg-black flex gap-5 justify-center align-middle text-left mt-1">
+            <div class="">
+                <img src="assets/images/children.png" alt="mobile app" class="m-5">
+            </div>
+            <div class="my-auto flex flex-col gap-y-4 text-wrap w-[50vw]">
+                <h1 class="text-5xl font-black">Create profiles for kids</h1>
+                <p class="text-2xl w-[43rem]">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            </div>
+        </div>
+        <!-- children section ends here -->
+    </div>
+    <!-- menu end -->
+    <!-- faq starts  -->
+    <div class="grid justify-center gap-3 bg-black text-center my-2">
+        <h1 class="text-5xl font-black my-10">Frequently Asked Questions</h1>
+        <div class="grid justify-center gap-2 ">
+            <div class="bg-zinc-900 flex justify-between align-middle  w-[70rem] p-5 ease-in duration-300 hover:bg-[#222222]">
+                <h1 class="text-3xl">What is Netflix?</h1>
+                <p class="text-5xl">&#x2b;</p>
+            </div>
+            <div class="bg-zinc-900 flex justify-between align-middle  w-[70rem] p-5 ease-in duration-300 hover:bg-[#222222]">
+                <h1 class="text-3xl">How much does Netflix cost?</h1>
+                <p class="text-5xl">&#x2b;</p>
+            </div>
+            <div class="bg-zinc-900 flex justify-between align-middle  w-[70rem] p-5 ease-in duration-300 hover:bg-[#222222]">
+                <h1 class="text-3xl">Where can I watch?</h1>
+                <p class="text-5xl">&#x2b;</p>
+            </div>
+            <div class="bg-zinc-900 flex justify-between align-middle  w-[70rem] p-5 ease-in duration-300 hover:bg-[#222222]">
+                <h1 class="text-3xl">How do I cancel?</h1>
+                <p class="text-5xl">&#x2b;</p>
+            </div>
+            <div class="bg-zinc-900 flex justify-between align-middle  w-[70rem] p-5 ease-in duration-300 hover:bg-[#222222]">
+                <h1 class="text-3xl">What can I watch on Netflix?</h1>
+                <p class="text-5xl">&#x2b;</p>
+            </div>
+            <div class="bg-zinc-900 flex justify-between align-middle  w-[70rem] p-5 ease-in duration-300 hover:bg-[#222222]">
+                <h1 class="text-3xl">Is Netflix good for kids?</h1>
+                <p class="text-5xl">&#x2b;</p>
+            </div>
+        </div>
+        <div class="grid justify-center gap-3 bg-black text-center my-2">
+            <h1 class="text-3xl">Ready to watch? Enter your email to create or restart your membership.</h1>
+            <div class="flex self-center justify-center">
+                <input type="email" placeholder="Email address" required
+                    class="w-[20vw] h-14 p-2 mr-2 rounded-md bg-[#4755697b] text-white border-2 border-white">
+                <label for="email" class="inline-flex align-middle bg-[#e50914] hover:bg-[#c2060f] p-[10px] rounded-md">
+                    <span class="text-3xl">Get Started</span>
+                    <svg width="24" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        data-mirrorinrtl="true" class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="ChevronRight"
+                        aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                            fill="currentColor"></path>
+                    </svg>
                 </label>
             </div>
         </div>
     </div>
+    <!-- faq starts end -->
+    <!-- footer starts -->
+    <footer>
+        <p>Question? Call <span class="underline cursor-pointer ">+91-00-0000-0000</span></p>
+        <div class="flex justify-center gap-24 align-top underline">
+            <div class="grid gap-y-3 cursor-pointer">
+                <p>FAQ</p>
+                <p>Investor Relation</p>
+                <p>Privacy</p>
+                <p>Speed Test</p>
+                <select name="language" id="#" style="background-color: rgba(0, 0, 0, 0.366);"
+                    class="px-4 py-3 my-auto rounded-md cursor-pointer no-underline">
+                    <option value="en-in">English</option>
+                    <option value="en-hin">हिन्दी</option>
+                </select>
+                <p>Netflix India</p>
+            </div>
+            <div class="grid gap-y-3 cursor-pointer">
+                <p>Help Center</p>
+                <p>Jobs</p>
+                <p>Cookie Prefarences</p>
+                <p>Legal Notices</p>
+            </div>
+            <div class="grid gap-y-3 cursor-pointer">
+                <p>Account</p>
+                <p>Way to Watch</p>
+                <p>Corporate Information</p>
+                <p>Only on Netflix</p>
+            </div>
+            <div class="grid gap-y-3 cursor-pointer">
+                <p>Media Center</p>
+                <p>Terms of Use</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
 </body>
 
 </html>
